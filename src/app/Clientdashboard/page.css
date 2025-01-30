@@ -1,0 +1,103 @@
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 100%;
+    display: flex;
+
+  }
+  
+  .header {
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .subHeader {
+    margin-bottom: 16px;
+    color: gray;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .statCard {
+    flex: 1;
+    background-color: white;
+    padding: 16px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .statNumber {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    align-items: center;
+  }
+  
+  .tableContainer {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tableHeader {
+    font-weight: bold;
+    text-align: left;
+    padding: 16px;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .row:last-child {
+    border-bottom: none;
+  }
+  
+  .cell {
+    flex: 1;
+    text-align: left;
+    padding-right: 16px;
+  }
+  
+  .actionButtons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .status {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 16px;
+    display: inline-block;
+  }
+  
+  .status.pending {
+    background-color: #fff8e1;
+    color: #fbc02d;
+  }
+  
+  .status.completed {
+    background-color: #e8f5e9;
+    color: #4caf50;
+  }
+  
+  .status.notPickedUp {
+    background-color: #ffebee;
+    color: #f44336;
+  }
+  

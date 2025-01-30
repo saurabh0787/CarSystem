@@ -1,0 +1,26 @@
+.heading-car{
+    height: auto;
+    width: 100%;
+    background: white;
+display: flex;
+justify-content: center;
+padding: 10px 0px;
+border-radius: 2px;
+}
+
+.heading-car h1{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sidebar-option{
+    font-size: 18px;
+color:#333;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+.sidebar-option:hover{
+    background-color:#e0e0e0;
+    border-radius:4px;
+}
